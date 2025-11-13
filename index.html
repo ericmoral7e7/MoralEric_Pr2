@@ -5,6 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -24,206 +31,273 @@
     </header>
 
     <main>
-
         <!-- Festival Protagonista -->
         <!-- section>h1*3+p+a*2+p*3+img -->
-        <section>
-            <h1>Festival Primavera Sound</h1>
-            <h1>3-7 Junio</h1>
-            <h1>Parc del Fòrum</h1>
-            <p>4 dias, 6 escenarios y más de 120 artistas en el corazón de Barcelona. Vive un show inmersivo con sonido
-                360º.</p>
-            <a href="">Entradas</a>
-            <a href="">Descubrir música</a>
-            <p>BCN</p>
-            <p>Electrónica - Indie · Pop</p>
-            <p>+18</p>
-            <img src="" alt="Imagen Festival Primavera Sound">
+        <section id="festival-protagonista">
+            <div class="informacion">
+                <h1>Festival Primavera Sound · 3-7 Junio · Parc del Fòrum</h1>
+
+                <p>4 dias, 6 escenarios y más de 120 artistas en el corazón de Barcelona. Vive un show inmersivo con
+                    sonido
+                    360º.</p>
+
+                <div class="botones">
+                    <a href="">Entradas</a>
+                    <a href="">Descubrir música</a>
+                </div>
+
+                <div class="grupo-tags">
+                    <p>BCN</p>
+                    <p>Electrónica - Indie · Pop</p>
+                    <p>+18</p>
+                </div>
+            </div>
+            <img src="src/festival_primavera_sound.jpg" alt="Imagen Festival Primavera Sound">
         </section>
 
         <!-- Lanzamientos -->
         <!-- section>h2+a+(article>img+h3+p*2+a{Más info})*10 -->
-        <section>
-            <h2>Lanzamientos</h2>
-            <a href="">Ver todo</a>
-            <article>
-                <img src="" alt="Portada Neon Skies">
-                <h3>Neon Skies</h3>
-                <p>Atlas</p>
-                <p>Synthpop</p>
-                <a href="">Más info</a>
-            </article>
-            <article>
-                <img src="" alt="Portada Hologram">
-                <h3>Hologram</h3>
-                <p>Kaia Nova</p>
-                <p>Electropop</p>
-                <a href="">Más info</a>
-            </article>
-            <article>
-                <img src="" alt="Portada Mar de Sonidos">
-                <h3>Mar de Sonidos</h3>
-                <p>Marea Azul</p>
-                <p>Dream pop</p>
-                <a href="">Más info</a>
-            </article>
-            <article>
-                <img src="" alt="Portada Altitude">
-                <h3>Altitude</h3>
-                <p>Vértigo</p>
-                <p>Electronica</p>
-                <a href="">Más info</a>
-            </article>
-            <article>
-                <img src="" alt="Portada Midnight City">
-                <h3>Midnight City</h3>
-                <p>Neon Parade</p>
-                <p>SynthTecITB</p>
-                <a href="">Más info</a>
-            </article>
-            <article>
-                <img src="" alt="Portada Echoes">
-                <h3>Echoes</h3>
-                <p>Arpeggio</p>
-                <p>Ambient</p>
-                <a href="">Más info</a>
-            </article>
-            <article>
-                <img src="" alt="Portada Stardust">
-                <h3>Stardust</h3>
-                <p>Halo</p>
-                <p>Alt Pop</p>
-                <a href="">Más info</a>
-            </article>
-            <article>
-                <img src="" alt="Portada Paper TecITBs">
-                <h3>Paper TecITBs</h3>
-                <p>Lykke</p>
-                <p>Indie</p>
-                <a href="">Más info</a>
-            </article>
-            <article>
-                <img src="" alt="Portada Solaris">
-                <h3>Solaris</h3>
-                <p>Dorlian</p>
-                <p>Alt Rock</p>
-                <a href="">Más info</a>
-            </article>
-            <article>
-                <img src="" alt="Portada Oblivion">
-                <h3>Oblivion</h3>
-                <p>M83</p>
-                <p>Synth</p>
-                <a href="">Más info</a>
-            </article>
+        <section id="lanzamientos">
+            <div class="contenido-de-seccion">
+                <div class="barra-arriba-seccion">
+                    <h2>Lanzamientos</h2>
+                    <a href="">Ver todo</a>
+                </div>
+
+                <div class="articulos-carta">
+                    <article>
+                        <img src="src/trap_de_verdad_portada.jpeg" alt="Portada Neon Skies">
+                        <div>
+                            <h3>Neon Skies</h3>
+                            <p>Atlas</p>
+                            <p>Synthpop</p>
+                            <a class="tag" href="">Más info</a>
+                        </div>
+                    </article>
+
+                    <article>
+                        <img src="src/trap_de_verdad_portada.jpeg" alt="Portada Hologram">
+                        <div>
+                            <h3>Hologram</h3>
+                            <p>Kaia Nova</p>
+                            <p>Electropop</p>
+                            <a class="tag" href="">Más info</a>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="src/trap_de_verdad_portada.jpeg" alt="Portada Mar de Sonidos">
+                        <div>
+                            <h3>Mar de Sonidos</h3>
+                            <p>Marea Azul</p>
+                            <p>Dream pop</p>
+                            <a class="tag" href="">Más info</a>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="src/trap_de_verdad_portada.jpeg" alt="Portada Altitude">
+                        <div>
+                            <h3>Altitude</h3>
+                            <p>Vértigo</p>
+                            <p>Electronica</p>
+                            <a class="tag" href="">Más info</a>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="src/trap_de_verdad_portada.jpeg" alt="Portada Midnight City">
+                        <div>
+                            <h3>Midnight City</h3>
+                            <p>Neon Parade</p>
+                            <p>SynthTecITB</p>
+                            <a class="tag" href="">Más info</a>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="src/trap_de_verdad_portada.jpeg" alt="Portada Echoes">
+                        <div>
+                            <h3>Echoes</h3>
+                            <p>Arpeggio</p>
+                            <p>Ambient</p>
+                            <a class="tag" href="">Más info</a>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="src/trap_de_verdad_portada.jpeg" alt="Portada Stardust">
+                        <div>
+                            <h3>Stardust</h3>
+                            <p>Halo</p>
+                            <p>Alt Pop</p>
+                            <a class="tag" href="">Más info</a>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="src/trap_de_verdad_portada.jpeg" alt="Portada Paper TecITBs">
+                        <div>
+                            <h3>Paper TecITBs</h3>
+                            <p>Lykke</p>
+                            <p>Indie</p>
+                            <a class="tag" href="">Más info</a>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="src/trap_de_verdad_portada.jpeg" alt="Portada Solaris">
+                        <div>
+                            <h3>Solaris</h3>
+                            <p>Dorlian</p>
+                            <p>Alt Rock</p>
+                            <a class="tag" href="">Más info</a>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="src/trap_de_verdad_portada.jpeg" alt="Portada Oblivion">
+                        <div>
+                            <h3>Oblivion</h3>
+                            <p>M83</p>
+                            <p>Synth</p>
+                            <a class="tag" href="">Más info</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
         </section>
 
         <!-- Artistas Destacados -->
         <!-- section>h2+a+(article>img+h3+p+p{★★★★★})*8 -->
-        <section>
-            <h2>Artistas Destacados</h2>
-            <a href="">Ver ranking</a>
-            <article>
-                <img src="" alt="Portada Kaia Nova">
-                <h3>Kaia Nova</h3>
-                <p>Electropop</p>
-                <p>★★★★★</p>
-            </article>
-            <article>
-                <img src="" alt="Portada Atlas">
-                <h3>Atlas</h3>
-                <p>Synthpop</p>
-                <p>★★★★★</p>
-            </article>
-            <article>
-                <img src="" alt="Portada Vértigo">
-                <h3>Vértigo</h3>
-                <p>Electrónica</p>
-                <p>★★★★★</p>
-            </article>
-            <article>
-                <img src="" alt="Portada Lykke">
-                <h3>Lykke</h3>
-                <p>Indie</p>
-                <p>★★★★★</p>
-            </article>
-            <article>
-                <img src="" alt="Portada Neon Parade">
-                <h3>Neon Parade</h3>
-                <p>SynthTecITB</p>
-                <p>★★★★★</p>
-            </article>
-            <article>
-                <img src="" alt="Portada Halo">
-                <h3>Halo</h3>
-                <p>Alt Pop</p>
-                <p>★★★★★</p>
-            </article>
-            <article>
-                <img src="" alt="Portada Marea Azul">
-                <h3>Marea Azul</h3>
-                <p>Dream Pop</p>
-                <p>★★★★★</p>
-            </article>
-            <article>
-                <img src="" alt="Portada Arpeggio">
-                <h3>Arpeggio</h3>
-                <p>Ambient</p>
-                <p>★★★★★</p>
-            </article>
+        <section id="artistas-destacados">
+            <div class="contenido-de-seccion">
+                <div class="barra-arriba-seccion">
+                    <h2>Artistas Destacados</h2>
+                    <a href="">Ver ranking</a>
+                </div>
+
+                <div class="articulos-horizontal">
+
+                    <article>
+                        <img src="/src/trap_de_verdad_portada.jpeg" alt="Portada Kaia Nova">
+                        <div>
+                            <h3>Kaia Nova</h3>
+                            <p>Electropop</p>
+                            <p>★★★★★</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="/src/trap_de_verdad_portada.jpeg" alt="Portada Atlas">
+                        <div>
+                            <h3>Atlas</h3>
+                            <p>Synthpop</p>
+                            <p>★★★★★</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="/src/trap_de_verdad_portada.jpeg" alt="Portada Vértigo">
+                        <div>
+                            <h3>Vértigo</h3>
+                            <p>Electrónica</p>
+                            <p>★★★★★</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="/src/trap_de_verdad_portada.jpeg" alt="Portada Lykke">
+                        <div>
+                            <h3>Lykke</h3>
+                            <p>Indie</p>
+                            <p>★★★★★</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="/src/trap_de_verdad_portada.jpeg" alt="Portada Neon Parade">
+                        <div>
+                            <h3>Neon Parade</h3>
+                            <p>SynthTecITB</p>
+                            <p>★★★★★</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="/src/trap_de_verdad_portada.jpeg" alt="Portada Halo">
+                        <div>
+                            <h3>Halo</h3>
+                            <p>Alt Pop</p>
+                            <p>★★★★★</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="/src/trap_de_verdad_portada.jpeg" alt="Portada Marea Azul">
+                        <div>
+                            <h3>Marea Azul</h3>
+                            <p>Dream Pop</p>
+                            <p>★★★★★</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="/src/trap_de_verdad_portada.jpeg" alt="Portada Arpeggio">
+                        <div>
+                            <h3>Arpeggio</h3>
+                            <p>Ambient</p>
+                            <p>★★★★★</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
         </section>
 
         <!-- Festivales -->
         <!-- section>h2{Festivales}+a{Barcelona}+section>(article>img+h3+p*6)*3^aside>(article>img+h3+p+a)*2 -->
-        <section>
-            <h2>Festivales</h2>
-            <a href="">Barcelona</a>
-            <section>
-                <article>
-                    <img src="" alt="Primaver Sound Image">
-                    <h3>Primaver Sound</h3>
-                    <p>Barcelona</p>
-                    <p>Finales de mayo/primera semana de junio</p>
-                    <p>Headliners varios</p>
-                    <p>Indie</p>
-                    <p>Electrónica</p>
-                    <p>Pop</p>
-                </article>
-                <article>
-                    <img src="" alt="Aurora Fest Image">
-                    <h3>Aurora Fest</h3>
-                    <p>Montjuic</p>
-                    <p>12-14 Jul</p>
-                    <p>Headliners: Atlas, Kaia Nova</p>
-                    <p>Escenografia</p>
-                    <p>Sostenible</p>
-                    <p>Experiencial</p>
-                </article>
-                <article>
-                    <img src="" alt="Altitude Image">
-                    <h3>Altitude</h3>
-                    <p>Andorra</p>
-                    <p>20-22 Feb</p>
-                    <p>Headliners: M83, Halo</p>
-                    <p>Mejor DJ</p>
-                    <p>Tecnología</p>
-                    <p>Aftermovie</p>
-                </article>
-            </section>
-            <aside>
-                <article>
-                    <img src="" alt="Imagen con Micrófono">
-                    <h3>Escuchalo en Spotify</h3>
-                    <p>Playlist SoundWave Hits</p>
-                    <a href="">Abrir app</a>
-                </article>
-                <article>
-                    <img src="" alt="Imagen con Micrófono">
-                    <h3>Radio Indie BCN</h3>
-                    <p>Emisión en directo 24/7</p>
-                    <a href="">Escuchar</a>
-                </article>
-            </aside>
+        <section id="festivales">
+            <div class="contenido-de-seccion">
+
+                <div class="barra-arriba-seccion">
+                    <h2>Festivales</h2>
+                    <a href="">Barcelona</a>
+                </div>
+                
+                <div>
+                    <div class="articulos-carta">
+                        <article>
+                            <img src="" alt="Primaver Sound Image">
+                            <h3>Primavera Sound</h3>
+                            <p>Barcelona</p>
+                            <p>Finales de mayo/primera semana de junio</p>
+                            <p>Headliners varios</p>
+                            <p>Indie</p>
+                            <p>Electrónica</p>
+                            <p>Pop</p>
+                        </article>
+                        <article>
+                            <img src="" alt="Aurora Fest Image">
+                            <h3>Aurora Fest</h3>
+                            <p>Montjuic</p>
+                            <p>12-14 Jul</p>
+                            <p>Headliners: Atlas, Kaia Nova</p>
+                            <p>Escenografia</p>
+                            <p>Sostenible</p>
+                            <p>Experiencial</p>
+                        </article>
+                        <article>
+                            <img src="" alt="Altitude Image">
+                            <h3>Altitude</h3>
+                            <p>Andorra</p>
+                            <p>20-22 Feb</p>
+                            <p>Headliners: M83, Halo</p>
+                            <p>Mejor DJ</p>
+                            <p>Tecnología</p>
+                            <p>Aftermovie</p>
+                        </article>
+                    </div>
+                    <aside>
+                        <article>
+                            <img src="" alt="Imagen con Micrófono">
+                            <h3>Escuchalo en Spotify</h3>
+                            <p>Playlist SoundWave Hits</p>
+                            <a href="">Abrir app</a>
+                        </article>
+                        <article>
+                            <img src="" alt="Imagen con Micrófono">
+                            <h3>Radio Indie BCN</h3>
+                            <p>Emisión en directo 24/7</p>
+                            <a href="">Escuchar</a>
+                        </article>
+                    </aside>
+                </div>
+            </div>
         </section>
 
         <!-- Lo más escuchado · Top 10 -->
@@ -294,17 +368,17 @@
                 </li>
             </ol>
         </section>
-
-        <!-- footer -->
-        <!-- footer>h2+p+address+a*2 -->
-        <footer>
-            <h2>SoundTecITB</h2>
-            <p>© 2024 SoundTecITB</p>
-            <address>C/ Aiguablava, 123 Barcelona</address>
-            <a href="">Instagram</a>
-            <a href="">TikTok</a>
-        </footer>
     </main>
+
+    <!-- footer -->
+    <!-- footer>h2+p+address+a*2 -->
+    <footer>
+        <h2>SoundTecITB</h2>
+        <p>© 2024 SoundTecITB</p>
+        <address>C/ Aiguablava, 123 Barcelona</address>
+        <a href="">Instagram</a>
+        <a href="">TikTok</a>
+    </footer>
 </body>
 
 </html>
