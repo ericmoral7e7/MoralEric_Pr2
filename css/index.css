@@ -1,0 +1,119 @@
+/* FESTIVAL PROTAGONISTA */
+#festival-protagonista {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    background: linear-gradient(to top, var(--rojo-oscuro-ameri), var(--negro-ameri));
+}
+
+#festival-protagonista .informacion {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1.3em;
+}
+
+#festival-protagonista h1 {
+    display: inline-block;
+    color: white;
+}
+
+#festival-protagonista p {
+    color: white;
+}
+
+#festival-protagonista img {
+    width: 50vw;
+    height: 30%;
+    object-fit: cover;
+    border-radius: 1em;
+}
+
+#lanzamientos {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background: linear-gradient(to bottom, var(--rojo-oscuro-ameri), var(--amarillo-5202), var(--rojo-oscuro-ameri));
+    /* background-color: var(--rojo-oscuro-ameri); */
+    width: 100%;
+}
+
+#artistas-destacados {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    /* background: linear-gradient(to bottom, var(--amarillo-5202), #6a0029); */
+    background-color: var(--rojo-oscuro-ameri);
+}
+
+
+/* FESTIVALES */
+#festivales {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background: linear-gradient(to top, #444444, #6a4a00);
+}
+
+#festivales .articulos-carta {
+    background-color: green;
+    width: 60%;
+    padding: 10px;
+}
+
+#festivales .articulos-carta article {
+    width: 30%;
+}
+
+#festivales div+div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#festivales aside {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#top-10 {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to top, #444444, #004a6a);
+}
+
+#top-10 .contenido-de-seccion ol {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* dos columnas */
+    column-gap: 3em;
+    row-gap: 0.6em;
+    color: white;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#top-10 .contenido-de-seccion li {
+    margin: 0;
+    padding: 0;
+}
+
+#top-10 .contenido-de-seccion li a {
+    color: white;
+    text-decoration: none;
+    display: inline; /* en línea para que se lea como una frase */
+}
+
+#top-10 .contenido-de-seccion li a p {
+    display: inline;
+    margin: 0;
+}
+
+#top-10 .contenido-de-seccion li a p:first-child::after {
+    content: " — "; /* separador entre artista y canción */
+}
+
+#top-10 .contenido-de-seccion li a p:last-child {
+    font-style: italic; /* canción en cursiva */
+}

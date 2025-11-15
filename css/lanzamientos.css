@@ -1,0 +1,38 @@
+*{
+    color: white;
+}
+#pag-lanzamientos{
+    background-color: black;
+}
+
+/* Separar imagen de contenido */
+.contenido-de-seccion .contenido-articulo{
+    background-color: grey;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contenido-de-seccion .contenido-articulo>div{
+    padding-left: 20px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenido-de-seccion .contenido-articulo div div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.informacion-lanzamiento .profile-pic{
+    display: flex;
+    flex-direction: row;
+}
+.informacion-lanzamiento .profile-pic img{
+    width: 10%;
+}
+
+.contenido-articulo>img{
+    width: 30%;
+}
