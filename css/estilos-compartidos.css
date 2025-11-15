@@ -219,7 +219,7 @@ section {
 .articulos-horizontal article>div p {
     font-size: 0.7em;
     display: inline;
-    text-shadow: rgba(0, 0, 0, 0.473) 4px 4px 1.5px;
+    text-shadow: rgba(0, 0, 0, 0.473) 4px 3px 2px;
 }
 
 .boton-verde {
