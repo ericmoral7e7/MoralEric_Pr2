@@ -16,6 +16,7 @@
 #festival-protagonista h1 {
     display: inline-block;
     color: white;
+    font-size: 40px;
 }
 
 #festival-protagonista p {
@@ -72,28 +73,36 @@
 
     padding-right: 200px;
     padding-left: 200px;
+
+    display: flex;
+    flex-direction: column;
 }
 
-#festivales .articulos-carta {
-    /* background-color: rgba(0, 128, 0, 0.678); */
-    width: 60%;
-    padding: 10px;
+#festivales .contenido-de-seccion>div{
+    display: flex;
 }
 
-#festivales .articulos-carta article {
+#festivales .contenido-de-seccion #lista-festivales{
+    width: 70%;
+}
+
+#festivales .contenido-de-seccion #lista-festivales article{
     width: 30%;
 }
 
-#festivales div+div {
-    display: flex;
-    justify-content: space-between;
+#festivales .contenido-de-seccion #festivales-aside{
+    height: 700px;
 }
 
-#festivales aside {
-    width: 40%;
+#festivales .contenido-de-seccion #festivales-aside article{
+    width: 80%;
+}
+
+#festivales .contenido-de-seccion #festivales-aside{
+    width: 30%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
 }
 
 #top-10 {
