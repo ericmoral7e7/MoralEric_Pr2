@@ -1,0 +1,102 @@
+#artista-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+}
+
+main {
+    background: url("../src/la\ mansion.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#artista-title h1 {
+    padding-top: 30px;
+    color: white;
+    font-size: 75px;
+}
+
+#informacion-artista {
+    background: url(../src/duki-concierto-estirado_Nero_AI_Image_Upscaler_Standard_Face.jpeg);
+    height: 600px;
+    background-position: bottom;
+    background-size: 2000px;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#informacion-artista img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+
+#informacion-artista iframe {
+    width: 100%;
+}
+
+.contenido-de-seccion {
+    padding: 30px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25em;
+}
+
+section {
+    background-color: var(--rojo-ameri);
+}
+
+.epoca-de-vida {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-top: 7em;
+    
+    padding-right: 12em;
+    padding-left: 12em;
+}
+
+.epoca-de-vida div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.informacion {
+    width: 100%;
+}
+
+.informacion p {
+    width: 50%;
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.884);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.imagenes-epoca-de-vida {
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.imagenes-epoca-de-vida iframe {
+    height: 400px;
+    width: 100%;
+}
+
+
+#modo-diablo {
+    padding-top: 12em;
+    background-color: rgba(240, 248, 255, 0);
+    background: linear-gradient(180deg, rgba(228, 6, 6, 1) 1%, rgba(228, 6, 6, 0.5) 22%, rgba(228, 6, 6, 0) 50%);
+}

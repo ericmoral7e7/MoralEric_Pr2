@@ -1,12 +1,11 @@
-:root{
+:root {
     --rojo-ameri: rgb(228, 6, 6);
     --rojo-oscuro-ameri: rgb(133, 0, 0);
 
     --rojo-5202: rgb(240, 13, 3);
     --negro-ameri: rgb(0, 0, 0);
 
-    --amarillo-5202: rgb(189, 172, 49);
-
+    --amarillo-5202: rgb(184, 172, 84);
 }
 
 * {
@@ -80,11 +79,6 @@ nav ul li a {
     padding: 0.3em;
 }
 
-.tag:hover {
-    color: white;
-    border: 1px solid white;
-}
-
 /* SECCIONES */
 section {
     display: flex;
@@ -102,7 +96,7 @@ section {
 
 .barra-arriba-seccion h2 {
     color: white;
-    font-size: 1.8em;
+    font-size: 2.3em;
 }
 
 .barra-arriba-seccion a {
@@ -130,11 +124,17 @@ section {
 .articulos-carta article {
     background-color: rgba(0, 0, 0, 0.829);
     border-radius: 1em;
-    width: 17%;
+    width: 18%;
 }
 
 .articulos-carta article:hover {
     transform: scale(1.03);
+    box-shadow: 0 0 10px 2px rgba(240, 223, 129, 0.616);
+}
+
+.articulos-carta article:hover .tag {
+    color: white;
+    border: 1px solid white;
 }
 
 .articulos-carta article h3 {
@@ -144,10 +144,6 @@ section {
 .articulos-carta article p {
     font-size: 0.8em;
     display: inline;
-}
-
-.articulos-carta article:hover {
-    box-shadow: 0 0 10px 2px rgb(112, 112, 112);
 }
 
 .articulos-carta img {
@@ -191,8 +187,8 @@ section {
     transform: scale(1.03);
 }
 
-.articulos-horizontal article:hover img{
-    filter: drop-shadow(15px 10px 1.5px rgba(34, 34, 34, 0.945));
+.articulos-horizontal article:hover img {
+    filter: drop-shadow(15px 13px 1.5px rgba(34, 34, 34, 0.945)); 
 }
 
 .articulos-horizontal img {
@@ -255,10 +251,8 @@ section {
     color: grey;
 }
 
-span{
+span {
     display: inline-block;
-    /* border: 1px solid var(--rojo-ameri); */
-    /* padding: 0.001em 0.3em 0.001em 0.3em; */
     border-radius: 1em;
 
     background: linear-gradient(to right, var(--rojo-5202), var(--amarillo-5202));
@@ -269,8 +263,16 @@ span{
 /* FOOTER */
 footer {
     display: flex;
-    justify-content: center;
-    padding: 1em;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     background-color: black;
+    color: white;
+}
+
+footer a{
+    text-decoration: none;
     color: white;
 }

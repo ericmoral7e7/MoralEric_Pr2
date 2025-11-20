@@ -1,29 +1,44 @@
-*{
+* {
     color: white;
 }
 
-#pag-lanzamientos{
-    background-color: black;
+/* preguntar alicia */
+[id] {
+  scroll-margin-top: 100px; 
 }
 
-article{
+#pag-lanzamientos {
+    background-image: url("../src/albumes_trap_argentino-blur.jpg");
+    background-attachment: fixed;
+    background-size: 50%;
+}
+
+article {
     margin-bottom: 30px;
 }
 
+.barra-arriba-seccion{
+    background: linear-gradient(to right, var(--rojo-oscuro-ameri), rgba(184, 172, 84, 0.801));
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
 /* Separar imagen de contenido */
-.contenido-de-seccion .contenido-articulo{
-    background-color: grey;
+.contenido-de-seccion .contenido-articulo {
     display: flex;
     justify-content: flex-start;
 }
 
-.contenido-de-seccion .contenido-articulo>div{
-    background-color: grey;
+.contenido-de-seccion .contenido-articulo>div {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgba(97, 97, 97, 0.589);
     display: flex;
     justify-content: space-between;
 }
 
-.informacion-lanzamiento>div{
+.informacion-lanzamiento>div {
     width: 50%;
     padding: 20px;
     gap: 1em;
@@ -32,35 +47,42 @@ article{
     justify-content: flex-start;
 }
 
-.informacion-lanzamiento h3{
-    font-size: 30px;
+.informacion-lanzamiento h3 {
+    font-size: 35px;
+    text-shadow: 2px 2px 1px black;
 }
 
-.informacion-lanzamiento p{
+.informacion-lanzamiento p {
     text-justify: justify;
     text-align: justify;
 }
 
-.informacion-lanzamiento .profile-pic{
+.informacion-lanzamiento .profile-pic {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 1em;
 }
-.informacion-lanzamiento .profile-pic img{
-    width: 70px;
-    height: 70px;
+
+.informacion-lanzamiento .profile-pic img {
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
-    background-color: rgba(58, 56, 56, 0.308);
+    
+    /* background-color: var(--rojo-oscuro-ameri); */
+    filter: drop-shadow(0px 0px 5px black);
     object-fit: cover;
 }
 
-.informacion-lanzamiento ol{
+.informacion-lanzamiento ol {
     padding-top: 30px;
     padding-left: 35px;
 }
 
-.contenido-articulo>img{
+.contenido-articulo img {
     width: 35%;
     object-fit: cover;
+
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
